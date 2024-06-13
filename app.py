@@ -1,58 +1,190 @@
 import streamlit as st
 
+option =st.sidebar.selectbox('select one ',['home page ','Taj Fort Aguada Resort & Spa','Seashell Suites and Villas'])
 
-option=st.sidebar.selectbox('SELECT ONE',['Home Page','Country-Wise Analysis','Rating-Wise Analysis','Room-Types Analysis','Traveller-Types Analysis','Booked_Wise Analysis','Reviewed-Wise Analysis','Nightly-Stay Analysis'])
 def load_home_page():
-    st.title('Seashell Suites and Villas')
-    st.image('56659478.jpg')
+    st.title('home')
 
-def load_Country_Wise_Analysis():
-    st.title('Country-Wise Analysis')
-    st.write("This section provides an analysis of Seashell Suites and Villas reviews based on country.")
+def load_Seashell():
 
-def load_rating_Wise_Analysis():
-    st.title('Rating-Wise Analysis')
-    st.write("This section provides an analysis of Seashell Suites and Villas reviews based on rating.")
-def load_room_type_Wise_Analysis():
-    st.title('Room-Types Analysis')
-    st.write("This section provides an analysis of Seashell Suites and Villas reviews based on room types.")
+    option = st.sidebar.selectbox('SELECT ONE',
+                                  ['Home Page', 'Country-Wise Analysis', 'Rating-Wise Analysis', 'Room-Types Analysis',
+                                   'Traveller-Types Analysis', 'Booked_Wise Analysis', 'Reviewed-Wise Analysis',
+                                   'Nightly-Stay Analysis'])
 
-def load_traveller_types_Wise_Analysis():
-    st.title('Traveller-Types Analysis')
-    st.write("This section provides an analysis of Seashell Suites and Villas reviews based on traveller types.")
-def load_booked_Wise_Analysis():
-    st.title('Booked_Wise Analysis')
-    st.write("This section provides an analysis of Seashell Suites and Villas reviews based on booked.")
-def load_reviewed_Wise_Analysis():
-    st.title('Reviewed-Wise Analysis')
-    st.write("This section provides an analysis of Seashell Suites and Villas reviews based on reviewed.")
+    def load_home_page():
+        st.title('Seashell Suites and Villas')
+        st.image('56659478.jpg')
 
-def load_Nightly_Stay_Analysis():
-    st.title('Nightly-Stay Analysis')
-    st.write("This section provides an analysis of Seashell Suites and Villas reviews based on nightly_stay.")
+    def load_Country_Wise_Analysis():
+        st.title('Country-Wise Analysis')
+        st.write("This section provides an analysis of Seashell Suites and Villas reviews based on country.")
+
+    def load_rating_Wise_Analysis():
+        st.title('Rating-Wise Analysis')
+        st.write("This section provides an analysis of Seashell Suites and Villas reviews based on rating.")
+
+    def load_room_type_Wise_Analysis():
+        st.title('Room-Types Analysis')
+        st.write("This section provides an analysis of Seashell Suites and Villas reviews based on room types.")
+
+    def load_traveller_types_Wise_Analysis():
+        st.title('Traveller-Types Analysis')
+        st.write("This section provides an analysis of Seashell Suites and Villas reviews based on traveller types.")
+
+    def load_booked_Wise_Analysis():
+        st.title('Booked_Wise Analysis')
+        st.write("This section provides an analysis of Seashell Suites and Villas reviews based on booked.")
+
+    def load_reviewed_Wise_Analysis():
+        st.title('Reviewed-Wise Analysis')
+        st.write("This section provides an analysis of Seashell Suites and Villas reviews based on reviewed.")
+
+    def load_Nightly_Stay_Analysis():
+        st.title('Nightly-Stay Analysis')
+        st.write("This section provides an analysis of Seashell Suites and Villas reviews based on nightly_stay.")
+
+    if option == 'Home Page':
+        load_home_page()
+
+    elif option == 'Country-Wise Analysis':
+        load_Country_Wise_Analysis()
+
+    elif option == 'Rating-Wise Analysis':
+        load_rating_Wise_Analysis()
+
+    elif option == 'Room-Types Analysis':
+        load_room_type_Wise_Analysis()
+
+    elif option == 'Traveller-Types Analysis':
+        load_traveller_types_Wise_Analysis()
+
+    elif option == 'Booked_Wise Analysis':
+        load_booked_Wise_Analysis()
+
+    elif option == 'Reviewed-Wise Analysis':
+        load_reviewed_Wise_Analysis()
+
+    else:
+        load_Nightly_Stay_Analysis()
 
 
 
-if option == 'Home Page':
-    load_home_page()
 
-elif option == 'Country-Wise Analysis':
-    load_Country_Wise_Analysis()
 
-elif option == 'Rating-Wise Analysis':
-    load_rating_Wise_Analysis()
 
-elif option == 'Room-Types Analysis':
-    load_room_type_Wise_Analysis()
 
-elif option == 'Traveller-Types Analysis':
-    load_traveller_types_Wise_Analysis()
 
-elif option == 'Booked_Wise Analysis':
-    load_booked_Wise_Analysis()
 
-elif option == 'Reviewed-Wise Analysis':
-    load_reviewed_Wise_Analysis()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+def load_taj_fort():
+
+
+    option = st.sidebar.selectbox('SELECT ONE',
+                                  ['Home Page', 'Country-Wise Analysis', 'Rating-Wise Analysis', 'Room-Types Analysis',
+                                   'Traveller-Types Analysis', 'Booked_Wise Analysis', 'Reviewed-Wise Analysis',
+                                   'Nightly-Stay Analysis'])
+
+    def load_home_page():
+        st.title('Taj Fort Aguada Resort & Spa')
+        st.image('113048694.jpg')
+
+    def load_Country_Wise_Analysis():
+        st.title('Country-Wise Analysis')
+        st.write("This section provides an analysis of Taj Fort Aguada Resort & Spa reviews based on country.")
+
+    def load_rating_Wise_Analysis():
+        st.title('Rating-Wise Analysis')
+        st.write("This section provides an analysis of Taj Fort Aguada Resort & Spa reviews based on rating.")
+
+    def load_room_type_Wise_Analysis():
+        st.title('Room-Types Analysis')
+        st.write("This section provides an analysis of Taj Fort Aguada Resort & Spa reviews based on room types.")
+
+    def load_traveller_types_Wise_Analysis():
+        st.title('Traveller-Types Analysis')
+        st.write("This section provides an analysis of Taj Fort Aguada Resort & Spa reviews based on traveller types.")
+
+    def load_booked_Wise_Analysis():
+        st.title('Booked_Wise Analysis')
+        st.write("This section provides an analysis of Taj Fort Aguada Resort & Spa reviews based on booked.")
+
+    def load_reviewed_Wise_Analysis():
+        st.title('Reviewed-Wise Analysis')
+        st.write("This section provides an analysis of Taj Fort Aguada Resort & Spa reviews based on reviewed.")
+
+    def load_Nightly_Stay_Analysis():
+        st.title('Nightly-Stay Analysis')
+        st.write("This section provides an analysis of Taj Fort Aguada Resort & Spa reviews based on nightly_stay.")
+
+    if option == 'Home Page':
+        load_home_page()
+
+    elif option == 'Country-Wise Analysis':
+        load_Country_Wise_Analysis()
+
+    elif option == 'Rating-Wise Analysis':
+        load_rating_Wise_Analysis()
+
+    elif option == 'Room-Types Analysis':
+        load_room_type_Wise_Analysis()
+
+    elif option == 'Traveller-Types Analysis':
+        load_traveller_types_Wise_Analysis()
+
+    elif option == 'Booked_Wise Analysis':
+        load_booked_Wise_Analysis()
+
+    elif option == 'Reviewed-Wise Analysis':
+        load_reviewed_Wise_Analysis()
+
+    else:
+        load_Nightly_Stay_Analysis()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if option == 'Seashell Suites and Villas':
+    load_Seashell()
+elif option == 'Taj Fort Aguada Resort & Spa':
+    load_taj_fort()
 else:
-    load_Nightly_Stay_Analysis()
+    st.title('Home Page')
