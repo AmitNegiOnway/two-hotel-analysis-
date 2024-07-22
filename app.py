@@ -136,20 +136,7 @@ def load_home_page():
         </div>
     """, unsafe_allow_html=True)
 
-    # Sentiment Analysis Section
-    st.markdown("<h2 class='section-title'>Sentiment Analysis</h2>", unsafe_allow_html=True)
-    st.markdown("""
-        <div class='content'>
-            <p>
-                The "Sentiment Analysis" section delves into the sentiment expressed in the reviews. Sentiment analysis is a natural language processing technique used to determine whether a piece of text expresses positive, negative, or neutral sentiments. This section includes:
-            </p>
-            <ul>
-                <li><strong>Sentiment Distribution:</strong> A pie chart is created to show the distribution of positive, negative, and neutral sentiments in the reviews for each resort. This visualization helps users understand the overall sentiment trends.</li>
-                <li><strong>Sentiment Over Time:</strong> Line charts are used to display how sentiments have changed over time. This can be particularly useful to identify any trends or shifts in guest satisfaction.</li>
-            </ul>
-        </div>
-    """, unsafe_allow_html=True)
-
+    
     # Web Scraping and Data Gathering
     st.markdown("<h2 class='section-title'>Web Scraping and Data Gathering</h2>", unsafe_allow_html=True)
     st.markdown("""
